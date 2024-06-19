@@ -38,6 +38,6 @@ stages:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Tech tuts (9e9c27ce-e0c8-4171-a368-ad16977ec849)'
         appType: 'webAppLinux'
-        WebAppName: 'TechTuts'
+        WebAppName: 'TechTuts'   // AppService Name
         packageForLinux: '$(System.ArtifactsDirectory)/drop'
         RuntimeStack: 'STATICSITE|1.0'
